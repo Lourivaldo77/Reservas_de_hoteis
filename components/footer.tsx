@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react"
+import { Instagram, Linkedin, Github } from "lucide-react"
 
 export function Footer() {
   const currentYear = new Date().getFullYear()
@@ -71,16 +71,13 @@ export function Footer() {
             <h3 className="font-bold text-white mb-4">Follow Us</h3>
             <div className="flex gap-4">
               <a href="#" className="text-gray-400 hover:text-white transition">
-                <Facebook size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition">
-                <Twitter size={20} />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition">
                 <Instagram size={20} />
               </a>
               <a href="#" className="text-gray-400 hover:text-white transition">
                 <Linkedin size={20} />
+              </a>
+              <a href="#" className="text-gray-400 hover:text-white transition">
+                <Github size={20} />
               </a>
             </div>
           </div>

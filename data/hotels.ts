@@ -117,7 +117,7 @@ export const MOCK_HOTELS: Hotel[] = [
     stars: 4,
     amenities: ["Pool", "Beach Access", "Restaurant", "Spa", "Gym"],
     accommodationType: "Resort",
-git    description: "Tropical paradise with pristine beaches and authentic island hospitality.",
+    description: "Tropical paradise with pristine beaches and authentic island hospitality.",
     images: ["/beach-resort-bedroom-bali.jpg", "/beach-resort-pool-bali.jpg", "/beach-paradise-hotel-bali.jpg"],
     offers: [
       { platform: "Booking.com", price: 95, url: "#" },
